@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1E097D289120B000399630 /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E097C289120B000399630 /* ResourcesView.swift */; };
+		1F1E097F2891239100399630 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E097E2891239100399630 /* Extension.swift */; };
+		1F1E0981289276CF00399630 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E0980289276CF00399630 /* QuizView.swift */; };
+		1F1E09832892F7E200399630 /* QuizResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E09822892F7E200399630 /* QuizResultsView.swift */; };
+		1F8E90C5288F0D9700D133F2 /* SwizyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E90C4288F0D9700D133F2 /* SwizyApp.swift */; };
+		1F8E90C7288F0D9700D133F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E90C6288F0D9700D133F2 /* ContentView.swift */; };
+		1F8E90C9288F0D9800D133F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8E90C8288F0D9800D133F2 /* Assets.xcassets */; };
+		1F8E90CC288F0D9800D133F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8E90CB288F0D9800D133F2 /* Preview Assets.xcassets */; };
+		1F8E90CE288F0D9800D133F2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E90CD288F0D9800D133F2 /* Persistence.swift */; };
+		1F8E90D1288F0D9800D133F2 /* Swizy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E90CF288F0D9800D133F2 /* Swizy.xcdatamodeld */; };
+		1FEDA71828939D0D003690E0 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1FEDA71728939D0D003690E0 /* Lottie */; };
+		1FEDA71B28939DA6003690E0 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDA71A28939DA6003690E0 /* success.json */; };
+		1FEDA71D28939DB0003690E0 /* fail.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDA71C28939DB0003690E0 /* fail.json */; };
+		1FEDA71F28939E1C003690E0 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDA71E28939E1C003690E0 /* LottieView.swift */; };
+		1FEDA7232893A385003690E0 /* fail2.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDA7222893A385003690E0 /* fail2.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F1E097C289120B000399630 /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		1F1E097E2891239100399630 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1F1E0980289276CF00399630 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		1F1E09822892F7E200399630 /* QuizResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultsView.swift; sourceTree = "<group>"; };
+		1F8E90C1288F0D9700D133F2 /* Swizy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swizy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8E90C4288F0D9700D133F2 /* SwizyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwizyApp.swift; sourceTree = "<group>"; };
+		1F8E90C6288F0D9700D133F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F8E90C8288F0D9800D133F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F8E90CB288F0D9800D133F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F8E90CD288F0D9800D133F2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1F8E90D0288F0D9800D133F2 /* Swizy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swizy.xcdatamodel; sourceTree = "<group>"; };
+		1FEDA71A28939DA6003690E0 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		1FEDA71C28939DB0003690E0 /* fail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail.json; sourceTree = "<group>"; };
+		1FEDA71E28939E1C003690E0 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		1FEDA7222893A385003690E0 /* fail2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail2.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F8E90BE288F0D9700D133F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEDA71828939D0D003690E0 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F8E90B8288F0D9700D133F2 = {
+			isa = PBXGroup;
+			children = (
+				1F8E90C3288F0D9700D133F2 /* Swizy */,
+				1F8E90C2288F0D9700D133F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F8E90C2288F0D9700D133F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F8E90C1288F0D9700D133F2 /* Swizy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F8E90C3288F0D9700D133F2 /* Swizy */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDA71928939D22003690E0 /* Lottie */,
+				1F8E90C4288F0D9700D133F2 /* SwizyApp.swift */,
+				1F8E90C6288F0D9700D133F2 /* ContentView.swift */,
+				1F1E097C289120B000399630 /* ResourcesView.swift */,
+				1F1E0980289276CF00399630 /* QuizView.swift */,
+				1F1E09822892F7E200399630 /* QuizResultsView.swift */,
+				1F1E097E2891239100399630 /* Extension.swift */,
+				1F8E90C8288F0D9800D133F2 /* Assets.xcassets */,
+				1F8E90CD288F0D9800D133F2 /* Persistence.swift */,
+				1F8E90CF288F0D9800D133F2 /* Swizy.xcdatamodeld */,
+				1F8E90CA288F0D9800D133F2 /* Preview Content */,
+			);
+			path = Swizy;
+			sourceTree = "<group>";
+		};
+		1F8E90CA288F0D9800D133F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F8E90CB288F0D9800D133F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FEDA71928939D22003690E0 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDA71C28939DB0003690E0 /* fail.json */,
+				1FEDA7222893A385003690E0 /* fail2.json */,
+				1FEDA71A28939DA6003690E0 /* success.json */,
+				1FEDA71E28939E1C003690E0 /* LottieView.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F8E90C0288F0D9700D133F2 /* Swizy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8E90D4288F0D9800D133F2 /* Build configuration list for PBXNativeTarget "Swizy" */;
+			buildPhases = (
+				1F8E90BD288F0D9700D133F2 /* Sources */,
+				1F8E90BE288F0D9700D133F2 /* Frameworks */,
+				1F8E90BF288F0D9700D133F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swizy;
+			packageProductDependencies = (
+				1FEDA71728939D0D003690E0 /* Lottie */,
+			);
+			productName = Swizy;
+			productReference = 1F8E90C1288F0D9700D133F2 /* Swizy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F8E90B9288F0D9700D133F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					1F8E90C0288F0D9700D133F2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 1F8E90BC288F0D9700D133F2 /* Build configuration list for PBXProject "Swizy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F8E90B8288F0D9700D133F2;
+			packageReferences = (
+				1FEDA71628939D0D003690E0 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 1F8E90C2288F0D9700D133F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F8E90C0288F0D9700D133F2 /* Swizy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F8E90BF288F0D9700D133F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8E90CC288F0D9800D133F2 /* Preview Assets.xcassets in Resources */,
+				1FEDA71D28939DB0003690E0 /* fail.json in Resources */,
+				1F8E90C9288F0D9800D133F2 /* Assets.xcassets in Resources */,
+				1FEDA7232893A385003690E0 /* fail2.json in Resources */,
+				1FEDA71B28939DA6003690E0 /* success.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F8E90BD288F0D9700D133F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8E90D1288F0D9800D133F2 /* Swizy.xcdatamodeld in Sources */,
+				1F8E90CE288F0D9800D133F2 /* Persistence.swift in Sources */,
+				1FEDA71F28939E1C003690E0 /* LottieView.swift in Sources */,
+				1F8E90C7288F0D9700D133F2 /* ContentView.swift in Sources */,
+				1F1E097F2891239100399630 /* Extension.swift in Sources */,
+				1F1E0981289276CF00399630 /* QuizView.swift in Sources */,
+				1F8E90C5288F0D9700D133F2 /* SwizyApp.swift in Sources */,
+				1F1E09832892F7E200399630 /* QuizResultsView.swift in Sources */,
+				1F1E097D289120B000399630 /* ResourcesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F8E90D2288F0D9800D133F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F8E90D3288F0D9800D133F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F8E90D5288F0D9800D133F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swizy/Preview Content\"";
+				DEVELOPMENT_TEAM = LDU59D27D5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppleDeveloperAcademyBinus.Swizy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F8E90D6288F0D9800D133F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swizy/Preview Content\"";
+				DEVELOPMENT_TEAM = LDU59D27D5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppleDeveloperAcademyBinus.Swizy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F8E90BC288F0D9700D133F2 /* Build configuration list for PBXProject "Swizy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8E90D2288F0D9800D133F2 /* Debug */,
+				1F8E90D3288F0D9800D133F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F8E90D4288F0D9800D133F2 /* Build configuration list for PBXNativeTarget "Swizy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8E90D5288F0D9800D133F2 /* Debug */,
+				1F8E90D6288F0D9800D133F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FEDA71628939D0D003690E0 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FEDA71728939D0D003690E0 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FEDA71628939D0D003690E0 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		1F8E90CF288F0D9800D133F2 /* Swizy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F8E90D0288F0D9800D133F2 /* Swizy.xcdatamodel */,
+			);
+			currentVersion = 1F8E90D0288F0D9800D133F2 /* Swizy.xcdatamodel */;
+			path = Swizy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F8E90B9288F0D9700D133F2 /* Project object */;
+}
